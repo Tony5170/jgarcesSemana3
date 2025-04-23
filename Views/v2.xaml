@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jgarcesS3.Views.v2"
+             Title="v2">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="TextColor" Value="Blue" />
+            <Setter Property="Background" Value="Gray" />
+        </Style>
+    </ContentPage.Resources>
+        <VerticalStackLayout Spacing="20" Padding="20">
+
+        <Label x:Name="lblUsuario"
+               FontSize="16"
+               TextColor="red"
+               HorizontalTextAlignment="End"/>
+            
+        <Button x:Name="btnAbrir"
+        Text="Abrir v3"
+        HorizontalOptions="Start"
+        Clicked="btnAbrir_Clicked"/>
+
+        <Label 
+            Text="v2"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>
